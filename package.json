@@ -1,0 +1,22 @@
+{
+  "name": "graph",
+  "version": "1.0.0",
+  "description": "Native C++ graph for Node.js",
+  "main": "graph.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "keywords": [
+    "graph",
+    "Node.js",
+    "native",
+    "C++"
+  ],
+  "author": "James H Edwards",
+  "license": "MIT",
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "^1.2.1"
+  }
+}
